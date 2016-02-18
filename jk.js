@@ -24,7 +24,7 @@ request(url, function (err,res, body) {
 });
 */
 //Example 2
-/*
+
 var url = "http://jhkirkley.github.io/tech-blog/jekyll/2016/02/07/creating-a-github-pages-site-with-jekyll.html";
 
 request(url, function(err, res, body) {
@@ -34,7 +34,7 @@ request(url, function(err, res, body) {
   console.log("scraped", title);
 
 });
-*/
+
 //Example 3
 /*
 var url = "http://jhkirkley.github.io/tech-blog/jekyll/2016/02/07/creating-a-github-pages-site-with-jekyll.html";
@@ -56,10 +56,9 @@ request(url, function(err, res, body) {
   });
 */
 //Example 4
+/*
 var url = "http://jhkirkley.github.io/tech-blog/jekyll/2016/02/07/creating-a-github-pages-site-with-jekyll.html";
 
-
-//var destination = fs.createWriteStream('./scrapes/jk.json');
 request(url, function(err, res, body) {
   var pin = {};
   var json = { title : ""};
@@ -75,7 +74,7 @@ request(url, function(err, res, body) {
 
 });
 
-
+*/
 
 app.listen(port);
 console.log('open on port 8000');
